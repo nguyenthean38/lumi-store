@@ -1,0 +1,29 @@
+{
+  "name": "lumi-store-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Lumi Store – REST API (Express + SQLite)",
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.5.0",
+    "zod": "^4.6.7"
+  }
+}

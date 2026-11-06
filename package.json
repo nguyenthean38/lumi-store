@@ -1,0 +1,14 @@
+{
+  "name": "lumi-store",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lumi Store – website bán hàng hoàn chỉnh: cửa hàng + trang quản trị + REST API",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev": "node scripts/dev.js",
+    "build": "npm run build --prefix client",
+    "start": "npm run build && npm start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server"
+  }
+}

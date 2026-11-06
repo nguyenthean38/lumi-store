@@ -1,0 +1,7 @@
+node_modules/
+client/dist/
+server/data/
+server/uploads/*
+!server/uploads/.gitkeep
+.playwright-mcp/
+*.log
